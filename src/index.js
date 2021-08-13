@@ -4,7 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'mobx-react';
 import { HashRouter as Router } from 'react-router-dom';
-import rootStore from './components/store/RootStore';
+import rootStore from './store/RootStore';
 
 ReactDOM.render(
   <React.StrictMode>

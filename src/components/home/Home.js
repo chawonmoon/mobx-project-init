@@ -20,10 +20,6 @@ class Home extends Component {
     return (
       <>
         <div>홈화면</div>
-        <div>홈화면</div>
-        <div>홈화면</div>
-        <div>홈화면</div>
-        <div>홈화면</div>
         <br />
         <button onClick={this.onClickBtn}>
           {this.props.homeStore.callAppStoreData}
